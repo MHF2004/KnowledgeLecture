@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680809180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.1
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 9901b393be748a9429310d98921f1c5d, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!4 &1680809182
 Transform:
@@ -2006,8 +2006,8 @@ GameObject:
   - component: {fileID: 1939801773}
   - component: {fileID: 1939801772}
   - component: {fileID: 1939801771}
-  - component: {fileID: 1939801777}
   - component: {fileID: 1939801776}
+  - component: {fileID: 1939801777}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -2142,8 +2142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85673fe83c5e1b04195c1c7f40d8cbd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 1939801777}
-  waypoint: {fileID: 1091974673}
+  agent: {fileID: 0}
+  waypoint: {fileID: 0}
 --- !u!195 &1939801777
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2151,7 +2151,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939801770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 2
@@ -2800,10 +2800,10 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1680809182}
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 162249850}
   - {fileID: 1422137742}
   - {fileID: 1939801775}
+  - {fileID: 1680809182}
   - {fileID: 1091974674}
